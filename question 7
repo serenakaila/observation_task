@@ -1,0 +1,29 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    int n = 0;
+    int sumPositive = 0;
+    int sumNegative = 0;
+    Random rnd = new Random();
+    
+    while (n<100)
+    {
+      int number = rnd.Next(-100,100);
+      if (number < 0) 
+      
+      {
+        sumNegative += number;
+        
+      } 
+      else
+      {
+        sumPositive += number;
+      }
+      n++;
+    }
+    
+    Console.WriteLine("Positive  numbers: " + sumPositive);
+    Console.WriteLine("Negative numbers: " + sumNegative);
+  }
+}
