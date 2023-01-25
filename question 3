@@ -1,0 +1,29 @@
+using System;
+
+class Program {
+  public static void Main (string[] args) {
+    
+       int n;
+    
+        int sum = 0;
+
+        for (n = 0; n <= 10; n++)
+        {
+            sum = sum + n;
+        }
+
+        Console.WriteLine("Sum is = " + sum);
+
+        do
+        {
+            n++;
+        }
+    
+        while (n <= 10);
+
+        {
+            n++;
+        }
+
+  }
+}
