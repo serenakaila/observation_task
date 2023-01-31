@@ -15,8 +15,7 @@ class Program {
             n++;
         }
         while (n <= 75);
-    
-      while(n <= 75)
+   
       {
         n++;
       }
